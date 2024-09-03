@@ -1,0 +1,195 @@
+
+/*
+Buliding template design using margin, padding, float
+*/
+
+:root{
+    --prim: white;
+    --sec: rgb(77, 126, 232);
+    --tert: #4cc9f7;
+    --font1:"Space Grotesk", sans-serif;
+    --font2: "Quicksand", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.colophon{
+    font-family: var(--font1);
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 94%;
+    /* border: 1px solid #ffffffb5; */
+}
+
+.figcaption{
+    font-style: italic;
+    font-family: var(--font1);
+    color: var(--sec);
+}
+
+.form{
+    margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: right;
+    /* border: 1px solid black; */
+}
+
+
+.heading{
+    margin: 0;
+    font-family: var(--font1);
+    color: var(--sec);
+    text-shadow: 2px 2px 2px #333;
+}
+
+
+
+/*
+
+build a nav bar
+
+ul{
+padding-left: 0;
+list-style-type: none;
+}
+
+li{
+display: inlay
+}
+*/
+.nav{
+    margin-top: 10px;
+    padding-left: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-item{
+    display: inline;
+    padding: 0 15px;
+    font-family: var(--font2);
+}
+
+
+.nav-link{
+    color: var(--prim);
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+
+#nav-link:hover{
+    color: var(--sec)
+}
+
+.search-label{
+    display: none;
+}
+
+
+.text{
+    font-family: var(--font2);
+    font-size: 20px;
+}
+
+#block1, #block2{
+    width: 50%;
+    padding: 10px;
+    float: right;
+}
+
+#block4 .text{
+    padding-left: 0 15px;
+}
+
+
+#block5, #block6, #block7{
+    padding: 10px 15px;
+    width: calc(100%/3);
+    /* border: 1px solid blue; */
+    float: left;
+}
+
+
+#header{
+    padding: 15px 0;
+}
+
+
+#blockText1, #blockText2{
+    font-size: 24px;
+}
+
+
+#blockText2, #figure1{
+    width: 50%;
+    float: left;
+    /* border: 1px solid red; */
+}
+
+
+
+#blockText3, #blockText4{
+    width: 50%;
+    float: left;
+    padding: 10px 15px;
+}
+
+#figure1{
+    margin: 0;
+    padding-left: 20px;
+}
+
+#figure2{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+#figure2 img{
+    border-radius: 10px;
+}
+
+#footer{
+    padding-bottom: 60px;
+}
+
+#myName{
+    margin: 0;
+    width: 40%;
+    float: left;
+    color:var(--prim);
+    font-size: 42px;
+    font-family: var(--font1);
+}
+
+#section1, #section2, #section3 {
+    padding: 40px 0;
+}
+
+
+#topNav{
+    width: 30%;
+    float: left;
+}
+
+
+.clear{
+    clear: both;
+}
