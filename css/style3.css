@@ -112,6 +112,11 @@ body{
     /* border: 1px solid green; */
 }
 
+#myName{
+    color:var(--prim);
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 #row1{
     flex-direction: row-reverse;
